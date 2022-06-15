@@ -19,7 +19,6 @@ class Teste(unittest.TestCase):
     def setup(self):
         self.Calculadora = ('Calculadora')
 
-
     def teste_soma(self):
         self.calc = Calculadora()
         resultado = self.calc.soma(1, 2)
